@@ -13,7 +13,7 @@ Recursos utilizados:
 - Tema Dark
 
 Projeto no ar:
-[https://uliwill.github.io/](https://uliwill.github.io/)
+[arandas-curriculum.vercel.app](https://arandas-curriculum.vercel.app/)
 
 Quer um currículo como esse? Dá uma olhada nesse vídeo:
 
