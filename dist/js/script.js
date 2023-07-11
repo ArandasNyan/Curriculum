@@ -20,10 +20,8 @@ function scrollActive() {
     const e = window.pageYOffset;
     sections.forEach((t => {
         const n = t.offsetHeight, o = t.offsetTop - 50;
-        let activeLink = document.querySelector(".nav__menu a[href*=" + sectionId + "]").classList.add("active-link"),
-            unActiveLink = document.querySelector(".nav__menu a[href*=" + sectionId + "]").classList.remove("active-link");
 
-        sectionId = t.getAttribute("id"), e > o && e <= o + n ? activeLink: unActiveLink;
+        sectionId = t.getAttribute("id"), e > o && e <= o + n ? document.querySelector(".nav__menu a[href*=" + sectionId + "]").classList.add("active-link"): document.querySelector(".nav__menu a[href*=" + sectionId + "]").classList.remove("active-link");
     }))
 }
 
